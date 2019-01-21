@@ -9,7 +9,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.douzon.bookmall.vo.MemberVo;
 import com.douzon.bookmall.vo.RequestBookVo;
 import com.douzon.bookmall.vo.RequestVo;
 

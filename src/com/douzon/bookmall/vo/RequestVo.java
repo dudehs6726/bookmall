@@ -6,17 +6,8 @@ public class RequestVo {
 	private String address;
 	private long memberNo;
 	private String memberName;
-	private int count;
 	private String eMail;
-	private String bookName;
-	private long bookNo;
 	
-	public long getBookNo() {
-		return bookNo;
-	}
-	public void setBookNo(long bookNo) {
-		this.bookNo = bookNo;
-	}
 	public String geteMail() {
 		return eMail;
 	}
@@ -47,24 +38,13 @@ public class RequestVo {
 	public void setMemberNo(long memberNo) {
 		this.memberNo = memberNo;
 	}
-	public int getCount() {
-		return count;
-	}
-	public void setCount(int count) {
-		this.count = count;
-	}
 	public String getMemberName() {
 		return memberName;
 	}
 	public void setMemberName(String memberName) {
 		this.memberName = memberName;
 	}
-	public String getBookName() {
-		return bookName;
-	}
-	public void setBookName(String bookName) {
-		this.bookName = bookName;
-	}
+	
 	@Override
 	public String toString() {
 		return "주문번호: " + no + ", 주문자명: " + memberName + ", 주문자이메일: " + eMail + ", 결제금액: " + amount + ", 배송지: "
